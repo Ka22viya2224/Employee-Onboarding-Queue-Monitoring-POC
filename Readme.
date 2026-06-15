@@ -1,0 +1,68 @@
+# Employee Onboarding Queue Monitoring POC
+
+## Overview
+
+This project demonstrates an end-to-end UiPath automation using REFramework, Orchestrator Queues, OAuth Authentication, and Orchestrator APIs.
+
+## Features
+
+* Producer process adds employee onboarding data to Orchestrator Queue.
+* Consumer process built using REFramework.
+* OAuth 2.0 Client Credentials authentication.
+* Access Token generation using UiPath External Applications.
+* Orchestrator API integration.
+* Queue Statistics Monitoring.
+* Success, Failed, and InProgress transaction counts.
+* Pagination handling using `$top` and `$skip`.
+
+## Technologies Used
+
+* UiPath Studio
+* REFramework
+* UiPath Orchestrator
+* OAuth 2.0
+* HTTP Request Activity
+* JSON Deserialization
+* GitHub
+
+## Project Flow
+
+1. Producer adds employee records to Queue.
+2. Consumer retrieves queue items.
+3. Employee data is processed through the onboarding workflow.
+4. OAuth token is generated using Client ID and Client Secret.
+5. Orchestrator APIs are called using Bearer Token authentication.
+6. Queue statistics are retrieved and displayed.
+
+## API Concepts Implemented
+
+### Authentication
+
+* Client ID
+* Client Secret
+* Access Token
+* Bearer Authentication
+
+### Headers
+
+* Authorization
+* X-UIPATH-OrganizationUnitId
+* Content-Type
+
+### Pagination
+
+* `$top`
+* `$skip`
+
+## Learning Outcomes
+
+* REFramework implementation
+* Queue processing
+* API integration in UiPath
+* OAuth authentication flow
+* Orchestrator OData APIs
+* Git version control
+
+## Author
+
+Kaviyanjali
