@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Employee Onboarding Portal v3</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 40px; background:#f5f7fb; }
+.container { max-width: 800px; margin:auto; background:white; padding:25px; border-radius:8px; }
+label { display:block; margin-top:12px; font-weight:bold; }
+input { width:100%; padding:10px; box-sizing:border-box; }
+button { margin-top:20px; padding:10px 20px; margin-right:10px; }
+#messageArea { margin-top:20px; }
+.success { color:green; font-weight:bold; }
+.error { color:red; font-weight:bold; }
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Employee Onboarding Portal</h2>
+
+<label>Employee ID *</label><input id="employeeId" type="text">
+<label>First Name *</label><input id="firstName" type="text">
+<label>Last Name *</label><input id="lastName" type="text">
+<label>Email *</label><input id="email" type="email">
+<label>Phone *</label><input id="phone" type="text">
+<label>Address *</label><input id="address" type="text">
+<label>City *</label><input id="city" type="text">
+<label>State *</label><input id="state" type="text">
+
+<button onclick="submitEmployee()">Submit</button>
+<button onclick="resetForm()">Reset</button>
+
+<div id="messageArea"></div>
+</div>
+
+<script>
+function showMessage(type,text){
+  const area=document.getElementById('messageArea');
+  area.innerHTML='';
+  const msg=document.createElement('div');
+  msg.id=(type==='success')?'successMessage':'errorMessage';
+  msg.className=type;
+  msg.innerText=text;
+  area.appendChild(msg);
+}
+
+function submitEmployee(){
+ let employeeId=document.getElementById('employeeId').value.trim();
+ let firstName=document.getElementById('firstName').value.trim();
+ let lastName=document.getElementById('lastName').value.trim();
+ let email=document.getElementById('email').value.trim();
+ let phone=document.getElementById('phone').value.trim();
+ let address=document.getElementById('address').value.trim();
+ let city=document.getElementById('city').value.trim();
+ let state=document.getElementById('state').value.trim();
+
+ if(!employeeId||!firstName||!lastName||!email||!phone||!address||!city||!state){
+   showMessage('error','Please fill all mandatory fields.');
+   return;
+ }
+
+ if(employeeId==='5' || employeeId==='10'){
+   showMessage('error','Employee already exists.');
+   return;
+ }
+
+ showMessage('success','Employee Added Successfully');
+}
+
+function resetForm(){
+ document.getElementById('employeeId').value='';
+ document.getElementById('firstName').value='';
+ document.getElementById('lastName').value='';
+ document.getElementById('email').value='';
+ document.getElementById('phone').value='';
+ document.getElementById('address').value='';
+ document.getElementById('city').value='';
+ document.getElementById('state').value='';
+ document.getElementById('messageArea').innerHTML='';
+}
+</script>
+</body>
+</html>

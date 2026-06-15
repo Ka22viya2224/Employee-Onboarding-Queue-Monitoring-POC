@@ -1,0 +1,6 @@
+{
+  "Name": "Employee_API_Consumer_RF",
+  "ProjectType": "Process",
+  "Description": "Robotic Enterprise Framework",
+  "MainFile": "Main.xaml"
+}

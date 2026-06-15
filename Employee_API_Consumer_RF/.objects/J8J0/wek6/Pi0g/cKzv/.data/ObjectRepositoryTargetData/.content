@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="If7ZPevXL0O5jQnwaGQCwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="" DesignTimeRectangle="428, 159, 1063, 926" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' /&gt;" Guid="c58b014e-71aa-4355-a758-7a15810592cf" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Onboarding Portal v3' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ab9ab5b43fe8548d78ebeffcbb51fb22.jpg" xmlns="">0_IY6R4pfYkeF4MrSzfTaxA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

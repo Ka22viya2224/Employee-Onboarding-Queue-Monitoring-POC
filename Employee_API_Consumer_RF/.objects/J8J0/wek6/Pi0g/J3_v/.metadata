@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Employee Added Successf…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "J3_vbXqw6Ui9_eVh0OjmEA",
+  "Reference": "qlrFUZdemUu_5aTHoBDLuQ/J3_vbXqw6Ui9_eVh0OjmEA",
+  "ParentRef": "qlrFUZdemUu_5aTHoBDLuQ/Pi0gzH2wbUCsbDv1wseCTQ",
+  "Created": "2026-06-10T07:10:50.7010346Z",
+  "Updated": "2026-06-10T07:10:50.7010346Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Employee Onboarding Portal",
+  "Type": "Screen",
+  "Id": "Pi0gzH2wbUCsbDv1wseCTQ",
+  "Reference": "qlrFUZdemUu_5aTHoBDLuQ/Pi0gzH2wbUCsbDv1wseCTQ",
+  "ParentRef": "qlrFUZdemUu_5aTHoBDLuQ/wek6kh30WEab6QKIFB5xvg",
+  "Created": "2026-06-10T07:01:03.8263179Z",
+  "Updated": "2026-06-10T07:01:03.8263179Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

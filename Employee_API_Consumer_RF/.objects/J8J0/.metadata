@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Employee Onboarding Portal",
+  "Type": "App",
+  "Id": "J8J0k7L1-0qeJZdkPvfrxA",
+  "Reference": "qlrFUZdemUu_5aTHoBDLuQ/J8J0k7L1-0qeJZdkPvfrxA",
+  "Created": "2026-06-10T07:01:03.7111116Z",
+  "Updated": "2026-06-10T07:01:03.7111116Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
